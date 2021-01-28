@@ -1,0 +1,19 @@
+{
+  "name": "on-prem-service",
+  "version": "1.0.0",
+  "description": "On-premise mock service",
+  "repository": "https://github.com/ajmaradiaga/ariba-extensibility-samples",
+  "license": "Apache Software License, version 2.0",
+  "private": true,
+  "dependencies": {
+    "@sap/cds": "^4",
+    "express": "^4",
+    "node-pre-gyp": "^0.17.0"
+  },
+  "devDependencies": {
+    "sqlite3": "^5.0.0"
+  },
+  "scripts": {
+    "start": "cds run"
+  }
+}
