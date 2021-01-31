@@ -1,3 +1,5 @@
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/ariba-extensibility-samples)](https://api.reuse.software/info/github.com/SAP-samples/ariba-extensibility-samples)
+
 # SAP Ariba Extensibility samples
 The purpose of this project is to create a one-stop source for SAP Ariba developer. As an SAP Ariba developer, you will be able to learn about the SAP Ariba extensibility options available. The repository contains code samples so that you can get started extending the capabilities of SAP Ariba by using different programming languages, tools and/or SAP products available. Also, it contains a list of all the awesome content available related to SAP Ariba extensibility, e.g. videos, blog posts, webinars, etc. 
 
