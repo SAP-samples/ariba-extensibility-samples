@@ -58,6 +58,9 @@ The samples are provided on the "as-is" basis. Currently, there are no known iss
 
 For additional support, visit [SAP Community](https://community.sap.com/topics/ariba-extensibility) and [ask a question](https://answers.sap.com/questions/ask.html?primaryTagId=ff06b2d6-8e62-4ba2-b1a8-9d4867d0a62f), or contact your SAP contact to get support. In case you observe any defect in the product usage itself, kindly use the SAP Product Support channel and raise an incident adequately for the defects observed.
 
+## Contributing
+
+If you wish to contribute code, offer fixes or improvements, please send a pull request (PR). Due to legal reasons, contributors will be asked to accept a [Developer Certificate of Origin (DCO)](https://en.wikipedia.org/wiki/Developer_Certificate_of_Origin) on submitting their first PR to this project. This DCO acceptance can be done in the PR itself - look out for the CLA assistant that will guide you through the simple process. SAP uses [the standard DCO text of the Linux Foundation](https://developercertificate.org/).
 ## License
 
 Copyright (c) 2020 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSES/Apache-2.0.txt) file.
