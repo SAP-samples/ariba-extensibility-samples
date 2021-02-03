@@ -1,17 +1,17 @@
-# Replicate SAP Ariba data to an on-premise service using SAP Cloud Platform Integration (CPI) and SAP Cloud Connector (SCC)
+# Replicate SAP Ariba data to an on-premise service using SAP Cloud Integration (SCI) and SAP Cloud Connector (SCC)
 
-In this exercise, we will cover how we can move SAP Ariba data to an on-premise service by using SAP Cloud Platform Integration (CPI) and SAP Cloud Connector (SCC). SAP Cloud Connector will be used to achieve a connection from CPI to the on-premise service. The on-premise service will be hosted in our local machine, which means that we will be installing SCC in our local machine, configuring the connection between SCC and SAP Cloud Platform (SCP) locally, and granting access to the on-premise service from the local SCC. 
+In this exercise, we will cover how we can move SAP Ariba data to an on-premise service by using SAP Cloud Integration (SCI) and SAP Cloud Connector (SCC). SAP Cloud Connector will be used to achieve a connection from CPI to the on-premise service. The on-premise service will be hosted in our local machine, which means that we will be installing SCC in our local machine, configuring the connection between SCC and SAP Business Technology Platform (BTP) locally, and granting access to the on-premise service from the local SCC. 
 
 To complete the steps explained in this exercise, there are some prerequisites that we will need to complete first:
 
 - Create application in SAP Ariba Developer Portal and request API access to the Analytical reporting APIs. Unfortunately there is no trial version of SAP Ariba but I guess that if you are reading this exercise, it is because your company uses SAP Ariba :-). To find out how to create an application and request API access in the SAP Ariba Developer Portal check out :point_right: [topics/apis/request-api-access](../../apis/request-api-access/).
     > If you prefer watching videos, you can watch the first two videos available in the SAP Ariba for Developers YouTube playlist ? https://www.youtube.com/playlist?list=PL6RpkC85SLQDXSLHrSPtu8wztzDs8kYPX.
 
-- An SAP Cloud Platform trial account. Make sure to enable to a subscription to the Integration Suite (Go to your trial subaccount > Subscriptions > Integration Suite). Once in the Integration Suite application, add the
-Design, Develop and Operate Integration Scenarios (SAP Cloud Platform Integration).
+- An SAP BTP trial account. Make sure to enable to a subscription to the Integration Suite (Go to your trial subaccount > Subscriptions > Integration Suite). Once in the Integration Suite application, add the
+Design, Develop and Operate Integration Scenarios (SAP Cloud Integration).
     > To find out how to create a trial account: https://developers.sap.com/tutorials/hcp-create-trial-account.html
 
-- Download and install SAP Cloud Connector (SCC) locally. We will be connecting it to SAP Cloud Platform so that CPI can communicate with the mock on-premise service. 
+- Download and install SAP Cloud Connector (SCC) locally. We will be connecting it to SAP BTP so that SCI can communicate with the mock on-premise service. 
     > To find out how to install SCC, follow this tutorial - https://developers.sap.com/tutorials/cp-connectivity-install-cloud-connector.html or the SAP Help documentation: https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/latest/en-US/57ae3d62f63440f7952e57bfcef948d3.html 
   
 - Clone this repository as we will be running the on-prem-service locally and configuring its access in SCC. This is to simulate an on-premise service.
@@ -26,20 +26,20 @@ The on-premise service that the integration will be communicating with is a simp
 
 > The code of the on-premise service will be released shortly. Stay tuned.
 
-Now that we have access to the different systems and we've installed the required software, we will proceed to explain how to get SAP Cloud Platform Integration talking with SAP Ariba and the on-premise service.
+Now that we have access to the different systems and we've installed the required software, we will proceed to explain how to get SAP Cloud Integration talking with SAP Ariba and the on-premise service.
 
 ## Step 1 - Configure SAP Cloud Connector locally
 
 ⚡ Configure the required components in SAP Cloud Connector locally.
 
-Once SCC is installed locally and running, go to http://localhost:8443 to configure the connection to SAP Cloud Platform. The default login details are:
+Once SCC is installed locally and running, go to http://localhost:8443 to configure the connection to SAP BTP. The default login details are:
 - User Name: `Administrator`
 - Password: `manage`
 
-Once in the Cloud Connector UI, we need to set up the secure tunnel between our on-premise system (our local machine) and SAP Cloud Platform (Cloud Foundry environment).
-> The steps describe below are based on the `Set up Secure Tunnel between ABAP System and SAP Cloud Platform (CF)` tutorial - https://developers.sap.com/tutorials/cp-connectivity-create-secure-tunnel.html.
+Once in the Cloud Connector UI, we need to set up the secure tunnel between our on-premise system (our local machine) and SAP BTP (Cloud Foundry environment).
+> The steps describe below are based on the `Set up Secure Tunnel between ABAP System and SAP BTP (CF)` tutorial - https://developers.sap.com/tutorials/cp-connectivity-create-secure-tunnel.html.
 
-1. Go to the SAP Cloud Platform trial and check the details of your trial subaccount. Copy the ID as we will be using this for our configuration in SCC.
+1. Go to the SAP BTP trial and check the details of your trial subaccount. Copy the ID as we will be using this for our configuration in SCC.
    | ![Subaccount ID](images/subaccount-id.png) |
    |:--:|
    | Subaccount ID in SCP |
@@ -54,13 +54,13 @@ Once in the Cloud Connector UI, we need to set up the secure tunnel between our 
 
 Our SCC instance is fully configured, we can now proceed to creating the SAP CPI integration flow.
 
-## Step 2 – Create and set up integration flow in SAP Cloud Platform Integration
+## Step 2 – Create and set up integration flow in SAP Cloud Integration
 
 | ![Integration flow](images/integration-flow.png) |
 |:--:|
 | Integration flow |
 
-⚡ Create an integration flow in SAP Cloud Platform Integration following the guidelines below.
+⚡ Create an integration flow in SAP Cloud Integration following the guidelines below.
 
 Given that it is possible to receive large amounts of data from the SAP Ariba Analytical Reporting APIs, there might be a need to paginate the response. This is taken in consideration in the integration flow, hence why there is a looping process in it.
 
@@ -104,5 +104,5 @@ Now that all steps are completed, we deploy the integration flow and check the r
 |:--:|
 | On-premise data |
 
-As we can see, we have replicated the SAP Ariba data to our on-premise service. We were able to communicate from SAP Cloud Platform to our on-premise service securely by using SAP Cloud Connector.
+As we can see, we have replicated the SAP Ariba data to our on-premise service. We were able to communicate from SAP BTP to our on-premise service securely by using SAP Cloud Connector.
 

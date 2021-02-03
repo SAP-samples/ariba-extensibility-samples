@@ -1,28 +1,28 @@
-# Replicate SAP Ariba analytical data using SAP Cloud Platform Integration and Open Connectors
+# Replicate SAP Ariba analytical data using SAP Cloud Integration and Open Connectors
 
 > This content was first published as a blog post - https://blogs.sap.com/2020/10/18/replicate-sap-ariba-analytical-data-to-big-query-using-sap-cloud-platform-integration/ 
 
-In this exercise, we will cover how we can move analytical data available in the SAP Ariba APIs to Big Query. To achieve this, we will use the trial version of the Integration Suite available in SAP Cloud Platform. We will build an integration flow in SAP Cloud Platform Integration and configure an Open Connector instance to send data to Big Query.
+In this exercise, we will cover how we can move analytical data available in the SAP Ariba APIs to Big Query. To achieve this, we will use the trial version of the Integration Suite available in SAP BTP. We will build an integration flow in SAP Cloud Integration and configure an Open Connector instance to send data to Big Query.
 
 To complete the steps explained in this exercise, there are some prerequisites that we will need to complete first:
 
 - Create application in SAP Ariba Developer Portal and request API access to the Analytical reporting APIs. Unfortunately there is no trial version of SAP Ariba but I guess that if you are reading here, it is because your company uses SAP Ariba :-). To find out how to create an application and request API access in the SAP Ariba Developer Portal check out :point_right: [topics/apis/request-api-access](../../apis/request-api-access/).
     > If you prefer watching videos, you can watch the first two videos available in the SAP Ariba for Developers YouTube playlist ? https://www.youtube.com/playlist?list=PL6RpkC85SLQDXSLHrSPtu8wztzDs8kYPX.
 
-- An SAP Cloud Platform trial account. Make sure to enable to a subscription to the Integration Suite (Go to your trial subaccount > Subscriptions > Integration Suite). Once in the Integration Suite application, add the
-Design, Develop and Operate Integration Scenarios (SAP Cloud Platform Integration) and Extend Non-SAP Connectivity (Open Connectors) capabilities.
+- An SAP BTP trial account. Make sure to enable to a subscription to the Integration Suite (Go to your trial subaccount > Subscriptions > Integration Suite). Once in the Integration Suite application, add the
+Design, Develop and Operate Integration Scenarios (SAP Cloud Integration) and Extend Non-SAP Connectivity (Open Connectors) capabilities.
     > To find out how to create a trial account: https://developers.sap.com/tutorials/hcp-create-trial-account.html
 
 - Access to BigQuery. Google Cloud Platform offers a free trial, through which you can use Big Query. Go ahead and create a trial account if you don’t have access to Google Cloud Platform – https://cloud.google.com/free/.
 
-Now that we have access to the different systems, we will proceed to explain how to get SAP Cloud Platform Integration talking with SAP Ariba and Big Query.
+Now that we have access to the different systems, we will proceed to explain how to get SAP Cloud Integration talking with SAP Ariba and Big Query.
 
-We will build an integration flow in SAP Cloud Platform Integration whose goal is to extract analytical data from SAP Ariba and send the data to BigQuery. To accomplish this we will do the following:
+We will build an integration flow in SAP Cloud Integration whose goal is to extract analytical data from SAP Ariba and send the data to BigQuery. To accomplish this we will do the following:
 
 1. Create an OAuth application in Google Cloud Platform -> BigQuery
 2. Set up a BigQuery instance in Open Connectors
-3. Deploy security material in SAP Cloud Platform Integration
-4. Create integration flow in SAP Cloud Platform Integration
+3. Deploy security material in SAP Cloud Integration
+4. Create integration flow in SAP Cloud Integration
 
 | ![Integration flow](images/integration-flow.png) |
 |:--:|
@@ -39,7 +39,7 @@ In Google Cloud Platform, select the project and go to API & Services > Credenti
 | *Fig. 2 – Google Cloud Platform OAuth credentials* |
 
 ## Step 2 – Set up a BigQuery instance in Open Connectors
-⚡ Access the Open Connectors UI, from within the Cloud Platform Integration Suite, and create an instance of the BigQuery connector. Once created, copy the Authorization header details displayed in the API docs.
+⚡ Access the Open Connectors UI, from within the SAP Integration Suite, and create an instance of the BigQuery connector. Once created, copy the Authorization header details displayed in the API docs.
 
 | ![Integration Suite UI](images/integration-suite-ui.png) |
 |:--:|
@@ -57,8 +57,8 @@ Once the authentication is complete, visit the API docs of the connector instanc
 |:--:|
 | Fig. 5 – Open Connector API docs |
 
-## Step 3 – Deploy security material in SAP Cloud Platform Integration
-⚡ Go to your SAP Cloud Platform Integration instance and create/deploy 2 security materials (Monitor > Manage Security > Security Material). This will be used by the integration flow to communicate with SAP Ariba and BigQuery.
+## Step 3 – Deploy security material in SAP Cloud Integration
+⚡ Go to your SAP Cloud Integration instance and create/deploy 2 security materials (Monitor > Manage Security > Security Material). This will be used by the integration flow to communicate with SAP Ariba and BigQuery.
 
 | Name | Type | Fields |
 |--|--|--|
@@ -69,9 +69,9 @@ Once the authentication is complete, visit the API docs of the connector instanc
 |:--:|
 | Fig. 6 – Security material |
 
-## Step 4 – Create and set up integration flow in SAP Cloud Platform Integration
+## Step 4 – Create and set up integration flow in SAP Cloud Integration
 
-⚡ Create an integration flow in SAP Cloud Platform Integration following the guidelines below.
+⚡ Create an integration flow in SAP Cloud Integration following the guidelines below.
 
 Given that it is possible to receive large amounts of data from the SAP Ariba Analytical Reporting APIs, there might be a need to paginate the response. This is taken in consideration in the integration flow, hence why there is a looping process in it.
 
@@ -133,4 +133,4 @@ Now that all steps are completed, we deploy the integration flow and check the r
 
 As we can see, we have replicated the SAP Ariba data to BigQuery. We can now use this dataset to create a report/dashboard in reporting tools that connect to BigQuery.
 
-You’ve made it to the end of the exercise 👏👏. We’ve covered how we can retrieve data from the SAP Ariba APIs and implement pagination in SAP Cloud Platform Integration, by using the looping process call. Also, how we can leverage Open Connectors to communicate with external services, e.g. BigQuery. Finally, an integration flow that can handle the end-to-end process of extracting the data and sending it to BigQuery.
+You’ve made it to the end of the exercise 👏👏. We’ve covered how we can retrieve data from the SAP Ariba APIs and implement pagination in SAP Cloud Integration, by using the looping process call. Also, how we can leverage Open Connectors to communicate with external services, e.g. BigQuery. Finally, an integration flow that can handle the end-to-end process of extracting the data and sending it to BigQuery.

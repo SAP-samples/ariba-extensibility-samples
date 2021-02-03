@@ -2,18 +2,18 @@
 
 > This content was first published as a blog post - https://blogs.sap.com/2020/11/03/how-to-replicate-sap-ariba-analytical-data-to-sap-hana-cloud/
 
-Here we will cover how we can move analytical data available in the SAP Ariba APIs to SAP HANA Cloud. To achieve this, we will use the trial version of the Integration Suite and SAP HANA Cloud available in SAP Cloud Platform. We will build an integration flow in SAP Cloud Platform Integration and use the recently [released JDBC adapter](https://help.sap.com/doc/43b304f99a8145809c78f292bfc0bc58/Cloud/en-US/98bf747111574187a7c76f8ced51cfeb.html?sel1=Cloud%20Integration&sel4=Cloud%20Foundry&sel3=New) for SAP Cloud Platform Integration (Cloud Foundry environment) to send data to SAP HANA Cloud.
+Here we will cover how we can move analytical data available in the SAP Ariba APIs to SAP HANA Cloud. To achieve this, we will use the trial version of the Integration Suite and SAP HANA Cloud available in SAP BTP. We will build an integration flow in SAP Cloud Integration and use the recently [released JDBC adapter](https://help.sap.com/doc/43b304f99a8145809c78f292bfc0bc58/Cloud/en-US/98bf747111574187a7c76f8ced51cfeb.html?sel1=Cloud%20Integration&sel4=Cloud%20Foundry&sel3=New) for SAP Cloud Integration (Cloud Foundry environment) to send data to SAP HANA Cloud.
 
-In a [previous exercise](../cpi-open-connectors/README.md), I covered how to use SAP Cloud Platform Integration to replicate SAP Ariba analytical data. This exercise is a continuation of it but will focus just on what is required to get it working with SAP HANA Cloud.
+In a [previous exercise](../cpi-open-connectors/README.md), I covered how to use SAP Cloud Integration to replicate SAP Ariba analytical data. This exercise is a continuation of it but will focus just on what is required to get it working with SAP HANA Cloud.
 
 To complete the steps explained in this exercise, there are some prerequisites that we will need to complete first:
 
 - Check the prerequisites listed in the [previous exercise](../cpi-open-connectors/README.md).
 - Access to SAP HANA Cloud. To learn how to create a HANA Cloud trial account, checkout this video created by Thomas Jung: https://www.youtube.com/watch?v=Wyi5EweH29I.
 
-Now that we have access to the different systems, we will proceed to explain what we need in to get the SAP Cloud Platform Integration integration flow to SAP HANA Cloud.
+Now that we have access to the different systems, we will proceed to explain what we need in to get the SAP Cloud Integration integration flow to SAP HANA Cloud.
 
-1. Deploy JDBC security material in SAP Cloud Platform Integration
+1. Deploy JDBC security material in SAP Cloud Integration
 2. Update the integration flow components
    1. Modify Process Ariba response script
 3. Deploy the integration flow
@@ -22,9 +22,9 @@ Now that we have access to the different systems, we will proceed to explain wha
 
 Fig. 1 – Integration flow to SAP HANA Cloud
 
-## Step 1 – Deploy JDBC material in SAP Cloud Platform Integration
+## Step 1 – Deploy JDBC material in SAP Cloud Integration
 
-⚡ Go to your SAP Cloud Platform Integration instance and create/deploy 2 security materials (Monitor > Manage Security > JDBC Material). This will be used by the integration flow to communicate with SAP HANA Cloud.
+⚡ Go to your SAP Cloud Integration instance and create/deploy 2 security materials (Monitor > Manage Security > JDBC Material). This will be used by the integration flow to communicate with SAP HANA Cloud.
 
 ![JDBC Material](images/jdbc-material.png)
 

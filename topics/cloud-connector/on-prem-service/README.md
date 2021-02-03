@@ -1,6 +1,6 @@
 # On-premise mock service
 
-The on-premise mock service included in this repository is a simple [Cloud Application Programming (CAP) model](https://cap.cloud.sap/docs/) Node.js application. The idea is to simulate an on-premise system that exposes an API and can receive requests from other 3rd party systems. Access to this service is what is configured in the Replicate SAP Ariba data to an on-premise service using SAP Cloud Platform Integration and SAP Cloud Connector [exercise](../README.md) to allow communication from SAP Cloud Platform to the service running locally.
+The on-premise mock service included in this repository is a simple [Cloud Application Programming (CAP) model](https://cap.cloud.sap/docs/) Node.js application. The idea is to simulate an on-premise system that exposes an API and can receive requests from other 3rd party systems. Access to this service is what is configured in the Replicate SAP Ariba data to an on-premise service using SAP Cloud Integration and SAP Cloud Connector [exercise](../README.md) to allow communication from SAP BTP to the service running locally.
 
 ## Set up local environment
 
@@ -25,7 +25,7 @@ The service will start and it will be ready to receive requests. To validate tha
 
 The entities exposed by the mock service are included in [srv/mock-service.cds](srv/mock-service.cds). 
 
-The `SourcingProjects` entity is currently being used in the Replicate SAP Ariba data to an on-premise service using SAP Cloud Platform Integration and SAP Cloud Connector [exercise](../README.md), expects a request like the one below:
+The `SourcingProjects` entity is currently being used in the Replicate SAP Ariba data to an on-premise service using SAP Cloud Integration and SAP Cloud Connector [exercise](../README.md), expects a request like the one below:
 ```bash
 $ curl --location --request POST 'http://localhost:4004/mock/SourcingProjects' \
 --header 'Content-Type: application/json' \

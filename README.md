@@ -20,12 +20,12 @@ If you are not familiar at all with the SAP Ariba extensibility options, check o
   - SAP Ariba API Inventory: Includes all of the Ariba SOAP APIs as well as REST APIs with descriptions and other useful information: https://support.ariba.com/item/view/189075
 
 ### SAP Cloud Connector
-- Replicate SAP Ariba data to an on-premise service using SAP Cloud Platform Integration (CPI) and SAP Cloud Connector (SCC): [topics/cloud-connector](topics/cloud-connector/)
+- Replicate SAP Ariba data to an on-premise service using SAP Cloud Integration and SAP Cloud Connector (SCC): [topics/cloud-connector](topics/cloud-connector/)
 ### Integrating with other SAP Products
 
 Below a list of exercises highlighting how other SAP products can be used to integrate with SAP Ariba:
 - Integrate with SAP Analytics Cloud, via SAP Data Intelligence: [topics/integrations/sac](topics/integrations/sac/)
-- Using SAP Cloud Platform integration and Open connectors to replicate SAP Ariba data: [topics/integrations/cpi-open-connectors](topics/integrations/cpi-open-connectors)
+- Using SAP Cloud Integration and Open connectors to replicate SAP Ariba data: [topics/integrations/cpi-open-connectors](topics/integrations/cpi-open-connectors)
 - Moving data to SAP HANA Cloud: [topics/integrations/hana-cloud](topics/integrations/hana-cloud/)
 - Using the REST data load request in BW/4HANA: Coming soon.
 
