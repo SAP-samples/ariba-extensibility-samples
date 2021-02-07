@@ -27,7 +27,7 @@ Below a list of exercises highlighting how other SAP products can be used to int
 - Integrate with SAP Analytics Cloud, via SAP Data Intelligence: [topics/integrations/sac](topics/integrations/sac/)
 - Using SAP Cloud Integration and Open connectors to replicate SAP Ariba data: [topics/integrations/cpi-open-connectors](topics/integrations/cpi-open-connectors)
 - Moving data to SAP HANA Cloud: [topics/integrations/hana-cloud](topics/integrations/hana-cloud/)
-- Using the REST data load request in BW/4HANA: Coming soon.
+- Using the REST data load request in BW/4HANA: [topics/integrations/bw4hana](topics/integrations/bw4hana/)
 
 ### Security
 - Extending Cloud Integration of SAP IAG to SAP Ariba Strategic Sourcing Suite - https://blogs.sap.com/2020/11/16/extending-cloud-integration-of-sap-iag-to-sap-ariba-strategic-sourcing-suite/
