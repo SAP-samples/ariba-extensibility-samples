@@ -18,6 +18,7 @@ If you are not familiar at all with the SAP Ariba extensibility options, check o
   - Data pagination in the SAP Ariba APIs sample: [topics/apis/data-pagination](topics/apis/data-pagination/)
 - Links:
   - SAP Ariba API Inventory: Includes all of the Ariba SOAP APIs as well as REST APIs with descriptions and other useful information: https://support.ariba.com/item/view/189075
+- [Recipes](./topics/apis/recipes): Achieve tasks commonly carried out by developers, by combining calls to various APIs available, to retrieve specific pieces of data or carry out certain actions.
 
 ### SAP Cloud Connector
 - Replicate SAP Ariba data to an on-premise service using SAP Cloud Integration and SAP Cloud Connector (SCC): [topics/cloud-connector](topics/cloud-connector/)
