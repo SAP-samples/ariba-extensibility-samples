@@ -1,6 +1,6 @@
 # SAP Ariba API recipes
 
-Not all data can be retrieved from within a single API call or certain actions require interacting with multiple APIs. The idea is that the "recipes" included here can show you how you can achieve common tasks carried out by developers to retrieve specific pieces of data or carry out certain actions, by combining calls to various APIs available.
+When utilising the SAP Ariba APIs, not all data can be retrieved from a single API call or certain actions require interacting with multiple APIs. The idea is that the "recipes" included here can show you how you can achieve common tasks carried out by developers to retrieve specific pieces of data or carry out certain actions, by combining calls to various APIs available.
 
 In this folder, you'll find various "recipes" that you can follow to retrieve data or carry out actions from/in the SAP Ariba APIs. Each recipe will be presented in a separate [Jupyter notebook](https://jupyter.org/). Each notebook will contain details of the different SAP Ariba APIs used to achieve a specific goal, sample URLs and responses from the SAP Ariba API.
 
