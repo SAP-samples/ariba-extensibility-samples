@@ -1,6 +1,6 @@
 # Consume Ariba APIs from ABAP
 
-In this sample you will learn how to consume Ariba APIs using classical ABAP objects.
+In this sample you will learn how to consume SAP Ariba APIs using classical ABAP objects.
 
 The SAP Ariba APIs allows creating integrations between applications/services/machines. The APIs are commonly used to extend the capabilities of SAP Ariba, e.g. extend approval process, interact with invoices, or it can just be to retrieve transactional/analytical data from the SAP Ariba realm (instance).
 
@@ -53,13 +53,13 @@ In the private section of the class, there are several global constants pre-defi
 - `gc_get_token_body`: The Get Token API body. You shouldn't change it
 - `gc_refresh_token_body`: The Refresh Token API body. You shouldn't change it
 - `gc_realm`: The realm name
-- `gc_viewname`: The view name to consume in the report
+- `gc_viewname`: The view template name to consume in the report
 - `gc_token_destination`: The RFC destination with the URL for the Token API
 - `gc_api_destination`: The RFC destination with the URL for the API
 
 ### 3. Run the class in SE24
 
-You can now go ahead an run the class in transaction `SE24`. Just call method `ANALYTICAL_SYNCHRONOUS` and you should see the result.
+You can now go ahead and run the class in transaction `SE24`. Just call method `ANALYTICAL_SYNCHRONOUS` and you should see the result.
 
 ## Summary
 
