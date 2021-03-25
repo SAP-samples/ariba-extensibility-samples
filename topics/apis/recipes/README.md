@@ -14,5 +14,6 @@ In our case, they are used to explore the SAP Ariba API. When navigating the Jup
 
 - [Asynchronous Reporting API - Submit and process async job requests](./async-reporting-api-submit-process-job.ipynb)
 - [Retrieve Sourcing Requests from SAP Ariba API](./retrieve-sourcing-requests-from-api.ipynb)
+- [Invoice Extractor from the AN API](./retrieve-invoices-aribanetwork-api.ipynb)
 - Get documents from a Contract Workspace (coming soon)
 - Download attachments from a supplier questionnaire (coming soon)
