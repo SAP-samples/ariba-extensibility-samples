@@ -19,7 +19,7 @@ $ pip install -r requirements.txt
 ⚡ Run the Python script
 
 ```bash
-$ python generate-er-diagram.py --document_type ApprovalHistoryFact
+$ python generate_er_diagram.py --document_type ApprovalHistoryFact
 ```
 
 ### Docker image/container
