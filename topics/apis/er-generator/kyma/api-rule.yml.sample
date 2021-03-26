@@ -1,0 +1,19 @@
+apiVersion: gateway.kyma-project.io/v1alpha1
+kind: APIRule
+metadata:
+  name: ariba-reporting-er-generator-service
+  namespace: default
+  labels:
+    app: ariba-reporting-er-generator
+spec:
+  service:
+    host: ariba-reporting-er-generator-service
+    name: ariba-reporting-er-generator-service
+    port: 443
+  gateway: kyma-gateway.kyma-system.svc.cluster.local
+  rules:
+    - path: /.*
+      methods: ["GET"]
+      accessStrategies:
+        - handler: noop
+      mutators: []

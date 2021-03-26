@@ -27,12 +27,40 @@ $ python generate_er_diagram.py --document_type ApprovalHistoryFact
 A Dockerfile is now included in the folder. You can build the docker image and communicate with the program via your browser.
 
 ```bash
+# Build docker image
 $ docker build --tag er-generator .
+
+# Run docker image
 $ docker run -p 8080:5000 er-generator
 ```
 
 Once the docker container is running, you can call the program from your web browser
 - Get all document types: http://localhost:8080/documentTypes
 - Get diagram for a document type: http://localhost:8080/documentTypes/CatalogReportingEntryFact/diagram
+
+### Deploy to Kyma runtime
+
+To deploy the image to Kyma, we will need to host the image in a private repo. 
+```bash
+# Login to private repo locally
+$ docker login --username user registry.mycompany.com
+
+# Tag previously created image with repo
+$ docker tag [IMAGE_ID] registry.mycompany.com/ariba-reporting-er-generator
+
+# Push to private repo
+$ docker push registry.mycompany.com/ariba-reporting-er-generator
+```
+
+Now, deploy to Kyma
+```bash
+# Create secret to login to the private repository
+$ kubectl create secret docker-registry docker-registry-secret --docker-server=registry.mycompany.com --docker-username=user --docker-password=StrongP4$sw0rd1 --docker-email=first.last@mycompany.com --namespace=default
+
+# Apply deployment, service and API rule
+$ kubectl apply -f kyma/deployment.yml
+$ kubectl apply -f kyma/service.yml
+$ kubectl apply -f kyma/api-rule.yml
+```
 
 Some sample diagrams are included in the [sample-diagrams](./sample-diagrams) folder.

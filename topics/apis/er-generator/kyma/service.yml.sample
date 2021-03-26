@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: ariba-reporting-er-generator-service
+  namespace: default
+  labels:
+    app: ariba-reporting-er-generator
+spec:
+  type: ClusterIP
+  ports:
+    - name: http
+      port: 443
+      protocol: TCP
+      targetPort: 5000
+  selector:
+    app: ariba-reporting-er-generator

@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  namespace: default
+  name: ariba-reporting-er-generator
+  annotations:
+    sidecar.istio.io/inject: "true"
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ariba-reporting-er-generator
+  template:
+    metadata:
+      labels:
+        app: ariba-reporting-er-generator
+        version: v1
+    spec:
+      containers:
+      - name: ariba-reporting-er-generator
+        image: registry.mycompany.com/ariba-reporting-er-generator:latest
+        ports:
+          - containerPort: 5000
+      imagePullSecrets:
+        - name: docker-registry-secret
