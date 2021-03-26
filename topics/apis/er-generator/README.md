@@ -22,4 +22,17 @@ $ pip install -r requirements.txt
 $ python generate-er-diagram.py --document_type ApprovalHistoryFact
 ```
 
+### Docker image/container
+
+A Dockerfile is now included in the folder. You can build the docker image and communicate with the program via your browser.
+
+```bash
+$ docker build --tag er-generator .
+$ docker run -p 8080:5000 er-generator
+```
+
+Once the docker container is running, you can call the program from your web browser
+- Get all document types: http://localhost:8080/documentTypes
+- Get diagram for a document type: http://localhost:8080/documentTypes/CatalogReportingEntryFact/diagram
+
 Some sample diagrams are included in the [sample-diagrams](./sample-diagrams) folder.
