@@ -51,6 +51,11 @@ For further resources, go to:
 
 ### Latest SAP Ariba Extensibility blog posts in SAP Community
 <!-- SAP-COMMUNITY-ARIBA-EXTENSIBILITY:START -->
+- [Quarterly Round-up of SAP Code Samples](https://blogs.sap.com/?p=1317569)
+- [SAP Ariba Analytical Reporting API: Part 2 - SAP Ariba Reporting API Structure](https://blogs.sap.com/?p=1281223)
+- [SAP Ariba Early Release Series](https://blogs.sap.com/?p=1315344)
+- [Deploy the Entity Relationship generator for SAP Ariba Analytical Reporting API application to the SAP BTP, Kyma runtime environment](https://blogs.sap.com/?p=1312427)
+- [How Enterprise Analytics for Procurement Improves the Bottom Line](https://blogs.sap.com/?p=1304211)
 <!-- SAP-COMMUNITY-ARIBA-EXTENSIBILITY:END -->
 
 
