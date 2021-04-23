@@ -49,6 +49,11 @@ For further resources, go to:
 - GitHub: [github.com/SAP-samples](http://github.com/SAP-Samples)
 
 
+### Latest SAP Ariba Extensibility blog posts in SAP Community
+<!-- SAP-COMMUNITY-ARIBA-EXTENSIBILITY:START -->
+<!-- SAP-COMMUNITY-ARIBA-EXTENSIBILITY:END -->
+
+
 ## Known issues
 
 The samples are provided on the "as-is" basis. Currently, there are no known issues for the sample projects.
