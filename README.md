@@ -51,11 +51,11 @@ For further resources, go to:
 
 ### Latest SAP Ariba Extensibility blog posts in SAP Community
 <!-- SAP-COMMUNITY-ARIBA-EXTENSIBILITY:START -->
+- [SAP Ariba Early Release Series](https://blogs.sap.com/?p=1367024)
 - [SAP Ariba Integration | Hands-on Video Tutorials](https://blogs.sap.com/?p=1350727)
 - [Things to take in consideration when migrating supplier-related files to SAP Ariba](https://blogs.sap.com/?p=1334805)
 - [Quarterly Round-up of SAP Code Samples](https://blogs.sap.com/?p=1317569)
 - [SAP Ariba Analytical Reporting API: Part 2 - SAP Ariba Reporting API Structure](https://blogs.sap.com/?p=1281223)
-- [SAP Ariba Early Release Series](https://blogs.sap.com/?p=1315344)
 <!-- SAP-COMMUNITY-ARIBA-EXTENSIBILITY:END -->
 
 
