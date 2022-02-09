@@ -51,11 +51,11 @@ For further resources, go to:
 
 ### Latest SAP Ariba Extensibility blog posts in SAP Community
 <!-- SAP-COMMUNITY-ARIBA-EXTENSIBILITY:START -->
+- [Data pipelines and APIs - Consider this when building your next data pipeline](https://blogs.sap.com/?p=1487907)
 - [SAP Ariba Early Release Series](https://blogs.sap.com/?p=1474632)
 - [Update commodities in a questionnaire via the SAP Ariba APIs](https://blogs.sap.com/?p=1442041)
 - [Update certificate type questions via the SAP Ariba APIs](https://blogs.sap.com/?p=1439566)
 - [SAP Ariba API - FAQ and Best Practice on Developer portal and Gateway](https://blogs.sap.com/?p=1428101)
-- [SAP Ariba Early Release Series](https://blogs.sap.com/?p=1419777)
 <!-- SAP-COMMUNITY-ARIBA-EXTENSIBILITY:END -->
 
 
