@@ -51,11 +51,11 @@ For further resources, go to:
 
 ### Latest SAP Ariba Extensibility blog posts in SAP Community
 <!-- SAP-COMMUNITY-ARIBA-EXTENSIBILITY:START -->
+- [Securing your online SAP account with Multi-Factor Authentication](https://blogs.sap.com/?p=1498848)
 - [Addressing the elephant in the room: Improve Accessibility with SAP Conversational AI](https://blogs.sap.com/?p=1491477)
 - [Data pipelines and APIs - Consider this when building your next data pipeline](https://blogs.sap.com/?p=1487907)
 - [SAP Ariba Early Release Series](https://blogs.sap.com/?p=1474632)
 - [Update commodities in a questionnaire via the SAP Ariba APIs](https://blogs.sap.com/?p=1442041)
-- [Update certificate type questions via the SAP Ariba APIs](https://blogs.sap.com/?p=1439566)
 <!-- SAP-COMMUNITY-ARIBA-EXTENSIBILITY:END -->
 
 
