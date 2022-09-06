@@ -51,11 +51,11 @@ For further resources, go to:
 
 ### Latest SAP Ariba Extensibility blog posts in SAP Community
 <!-- SAP-COMMUNITY-ARIBA-EXTENSIBILITY:START -->
+- [Ariba Analytics using SAP Analytics Cloud, Data Intelligence Cloud and HANA DocStore - Part 1](https://blogs.sap.com/?p=1560359)
 - [Get ready for the 2208 SAP Ariba Early Release Series](https://blogs.sap.com/?p=1574761)
 - [Extracting SAP Ariba Reporting API Data using SAP Integration Suite](https://blogs.sap.com/?p=1528226)
 - [Commonly asked questions regarding the SAP Ariba Reporting APIs](https://blogs.sap.com/?p=1539126)
 - [SAP Ariba Early Release Series](https://blogs.sap.com/?p=1528887)
-- [Provisioning Users Into SAP Ariba using SAP IAS/IPS](https://blogs.sap.com/?p=1507141)
 <!-- SAP-COMMUNITY-ARIBA-EXTENSIBILITY:END -->
 
 
