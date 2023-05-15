@@ -51,11 +51,11 @@ For further resources, go to:
 
 ### Latest SAP Ariba Extensibility blog posts in SAP Community
 <!-- SAP-COMMUNITY-ARIBA-EXTENSIBILITY:START -->
+- [SAP BTP Accelerator: The Intelligent Spend &amp; Business Network Use Case Advisory Program free for our partners](https://blogs.sap.com/?p=1760203)
 - [From Feedback to Action: How SAP Ariba incorporates Customer input](https://blogs.sap.com/?p=1748444)
 - [2305 Release for SAP Procurement and SAP Business Network Early Release Series](https://blogs.sap.com/?p=1751222)
 - [2302 release for SAP Procurement and SAP Business Network Early Release Series](https://blogs.sap.com/?p=1681560)
 - [Extracting SAP Ariba Reporting API Data using SAP Integration Suite Part 2 - Sending SAP Ariba Data into SAC](https://blogs.sap.com/?p=1643689)
-- [SAP Ariba Early Release Series](https://blogs.sap.com/?p=1622571)
 <!-- SAP-COMMUNITY-ARIBA-EXTENSIBILITY:END -->
 
 
