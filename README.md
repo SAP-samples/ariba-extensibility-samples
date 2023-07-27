@@ -17,7 +17,7 @@ If you are not familiar at all with the SAP Ariba extensibility options, check o
   - Authentication and refresh tokens in the SAP Ariba APIs sample: [topics/apis/authentication-refresh-token](topics/apis/authentication-refresh-tokens/)
   - Data pagination in the SAP Ariba APIs sample: [topics/apis/data-pagination](topics/apis/data-pagination/)
 - Links:
-  - SAP Ariba API Inventory: Includes all of the Ariba SOAP APIs as well as REST APIs with descriptions and other useful information: https://support.ariba.com/item/view/189075
+  - SAP Ariba API Inventory: Includes all of the Ariba SOAP APIs as well as REST APIs with descriptions and other useful information: [https://help.sap.com/docs/ariba-apis]
 - [Recipes](./topics/apis/recipes): Achieve tasks commonly carried out by developers, by combining calls to various APIs available, to retrieve specific pieces of data or carry out certain actions.
 
 ### SAP Cloud Connector
