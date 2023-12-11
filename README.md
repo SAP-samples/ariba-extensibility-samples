@@ -51,11 +51,11 @@ For further resources, go to:
 
 ### Latest SAP Ariba Extensibility blog posts in SAP Community
 <!-- SAP-COMMUNITY-ARIBA-EXTENSIBILITY:START -->
+- [SAP Ariba Category management Technical Architecture and BTP Integration setup Guidelines](https://blogs.sap.com/?p=1893757)
 - [Decoding the Ariba ITK Shift: Cloudy with a Chance of BTP Brilliance](https://blogs.sap.com/?p=1887219)
 - [SAP Ariba Extensibility: Download Sourcing Events using SAP Integration Suite and SAP Ariba APIs](https://blogs.sap.com/?p=1837834)
 - [Integration Tool Kit on BTP for SAP Ariba applications](https://blogs.sap.com/?p=1786247)
 - [SAP Ariba SNAP Overview](https://blogs.sap.com/?p=1760556)
-- [SAP BTP Accelerator: The Intelligent Spend &amp; Business Network Use Case Advisory Program free for our partners](https://blogs.sap.com/?p=1760203)
 <!-- SAP-COMMUNITY-ARIBA-EXTENSIBILITY:END -->
 
 
