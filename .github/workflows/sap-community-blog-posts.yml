@@ -15,4 +15,4 @@ jobs:
         with:
           comment_tag_name: "SAP-COMMUNITY-ARIBA-EXTENSIBILITY"
           accept_header: "*/*"
-          feed_list: "https://content.services.sap.com/feed?type=blogpost&tags=ff06b2d6-8e62-4ba2-b1a8-9d4867d0a62f&title=Latest%20blog%20posts%20for%20SAP%20Ariba%20Extensibility"
+          feed_list: "https://community.sap.com/khhcw49343/rss/search?q=tags:SAP%20Ariba%20Extensibility"
