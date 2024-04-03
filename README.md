@@ -51,11 +51,11 @@ For further resources, go to:
 
 ### Latest SAP Ariba Extensibility blog posts in SAP Community
 <!-- SAP-COMMUNITY-ARIBA-EXTENSIBILITY:START -->
+- [Exploring SAP Extensibility - Types of Extensibilities](https://community.sap.com/t5/technology-blogs-by-sap/exploring-sap-extensibility-types-of-extensibilities/ba-p/13656258)
 - [Deliver Real-World Results with SAP Business AI: Q4 2023 &amp; Q1 2024 Release Highlights](https://community.sap.com/t5/technology-blogs-by-sap/deliver-real-world-results-with-sap-business-ai-q4-2023-amp-q1-2024-release/ba-p/13650291)
 - [Ariba CIG Integration with SAP S4Hana Cloud](https://community.sap.com/t5/spend-management-q-a/ariba-cig-integration-with-sap-s4hana-cloud/qaq-p/12625350)
 - [SAP User Experience Update: What’s New for SAP S/4HANA 2023 &lpar;Private Cloud and On-Premise&rpar;](https://community.sap.com/t5/technology-blogs-by-sap/sap-user-experience-update-what-s-new-for-sap-s-4hana-2023-private-cloud/ba-p/13578447)
 - [2302 release for SAP Procurement and SAP Business Network Early Release Series](https://community.sap.com/t5/spend-management-blogs-by-sap/2302-release-for-sap-procurement-and-sap-business-network-early-release/ba-p/13568867)
-- [Episode 3 – How to get Certified in SAP BTP | SAP BTP Extension Suite](https://community.sap.com/t5/technology-blogs-by-sap/episode-3-how-to-get-certified-in-sap-btp-sap-btp-extension-suite/ba-p/13559423)
 <!-- SAP-COMMUNITY-ARIBA-EXTENSIBILITY:END -->
 
 
