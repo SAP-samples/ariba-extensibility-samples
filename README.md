@@ -52,10 +52,10 @@ For further resources, go to:
 ### Latest SAP Ariba Extensibility blog posts in SAP Community
 <!-- SAP-COMMUNITY-ARIBA-EXTENSIBILITY:START -->
 - [Shape the Future of SAP Solutions: Join the SAP Customer Engagement Initiative 2024 Cycle 2](https://community.sap.com/t5/technology-blogs-by-sap/shape-the-future-of-sap-solutions-join-the-sap-customer-engagement/ba-p/13724263)
+- [Calling all SAP Partners: Shape the Future of SAP&#39;s Products and Revolutionize Business Operations!](https://community.sap.com/t5/technology-blogs-by-sap/calling-all-sap-partners-shape-the-future-of-sap-s-products-and/ba-p/13737597)
 - [Discover SAP Ariba REST API Try Out feature – an essential yet overlooked tool!](https://community.sap.com/t5/spend-management-blogs-by-sap/discover-sap-ariba-rest-api-try-out-feature-an-essential-yet-overlooked/ba-p/13671029)
 - [Exploring SAP Extensibility - Types of Extensibilities](https://community.sap.com/t5/technology-blogs-by-sap/exploring-sap-extensibility-types-of-extensibilities/ba-p/13656258)
 - [Deliver Real-World Results with SAP Business AI: Q4 2023 &amp; Q1 2024 Release Highlights](https://community.sap.com/t5/technology-blogs-by-sap/deliver-real-world-results-with-sap-business-ai-q4-2023-amp-q1-2024-release/ba-p/13650291)
-- [SAP User Experience Update: What’s New for SAP S/4HANA 2023 &lpar;Private Cloud and On-Premise&rpar;](https://community.sap.com/t5/technology-blogs-by-sap/sap-user-experience-update-what-s-new-for-sap-s-4hana-2023-private-cloud/ba-p/13578447)
 <!-- SAP-COMMUNITY-ARIBA-EXTENSIBILITY:END -->
 
 
