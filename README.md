@@ -51,11 +51,11 @@ For further resources, go to:
 
 ### Latest SAP Ariba Extensibility blog posts in SAP Community
 <!-- SAP-COMMUNITY-ARIBA-EXTENSIBILITY:START -->
+- [🧰👷‍♂️ The SAP S/4HANA RISE &amp; SAP BTP - Toolbox  👷‍♂️🧰](https://community.sap.com/t5/technology-blogs-by-members/%EF%B8%8F-the-sap-s-4hana-rise-amp-sap-btp-toolbox-%EF%B8%8F/ba-p/13944069)
 - [Path Variables in Integration Flow](https://community.sap.com/t5/technology-q-a/path-variables-in-integration-flow/qaq-p/13953651)
 - [Operation Reporting API - Default Filter for Full Access](https://community.sap.com/t5/spend-management-q-a/operation-reporting-api-default-filter-for-full-access/qaq-p/13950264)
 - [Advance Payment Ariba](https://community.sap.com/t5/supply-chain-management-q-a/advance-payment-ariba/qaq-p/13936406)
 - [SAP Partner Delivery Manager Newsletter November 2024 - GROW with SAP](https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/sap-partner-delivery-manager-newsletter-november-2024-grow-with-sap/ba-p/13934280)
-- [SAP UX Latest 2024 Innovations in Public Cloud: Joule, GenAI and More](https://community.sap.com/t5/technology-blogs-by-sap/sap-ux-latest-2024-innovations-in-public-cloud-joule-genai-and-more/ba-p/13770638)
 <!-- SAP-COMMUNITY-ARIBA-EXTENSIBILITY:END -->
 
 
