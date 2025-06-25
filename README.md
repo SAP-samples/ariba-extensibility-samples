@@ -51,11 +51,11 @@ For further resources, go to:
 
 ### Latest SAP Ariba Extensibility blog posts in SAP Community
 <!-- SAP-COMMUNITY-ARIBA-EXTENSIBILITY:START -->
+- [New Projects | Early Insights | Real Influence - SAP Customer Engagement Initiative Cycle 2-2025](https://community.sap.com/t5/technology-blog-posts-by-sap/new-projects-early-insights-real-influence-sap-customer-engagement/ba-p/14136944)
 - [🧰👷‍♂️ The SAP S/4HANA RISE &amp; SAP BTP - Toolbox  👷‍♂️🧰](https://community.sap.com/t5/technology-blog-posts-by-members/%EF%B8%8F-the-sap-s-4hana-rise-amp-sap-btp-toolbox-%EF%B8%8F/ba-p/13944069)
 - [SAP User Experience Q1/2025 Update – Part 4: SAP Ariba, SAP Fieldglass](https://community.sap.com/t5/technology-blog-posts-by-sap/sap-user-experience-q1-2025-update-part-4-sap-ariba-sap-fieldglass/ba-p/14022466)
 - [Master Data Retrieval API for Procurement](https://community.sap.com/t5/spend-management-q-a/master-data-retrieval-api-for-procurement/qaq-p/14023203)
 - [Path Variables in Integration Flow](https://community.sap.com/t5/technology-q-a/path-variables-in-integration-flow/qaq-p/13953651)
-- [Operation Reporting API - Default Filter for Full Access](https://community.sap.com/t5/spend-management-q-a/operation-reporting-api-default-filter-for-full-access/qaq-p/13950264)
 <!-- SAP-COMMUNITY-ARIBA-EXTENSIBILITY:END -->
 
 
