@@ -51,11 +51,11 @@ For further resources, go to:
 
 ### Latest SAP Ariba Extensibility blog posts in SAP Community
 <!-- SAP-COMMUNITY-ARIBA-EXTENSIBILITY:START -->
+- [SAP BTP for HR at SAP Connect and Success Connect 2025 summary - bigger and better than ever](https://community.sap.com/t5/human-capital-management-blog-posts-by-sap/sap-btp-for-hr-at-sap-connect-and-success-connect-2025-summary-bigger-and/ba-p/14209124)
 - [SAP Fiori for SAP S/4HANA – Pro-tips for demonstrating SAP Fiori – Navigate with confidence](https://community.sap.com/t5/enterprise-resource-planning-blog-posts-by-sap/sap-fiori-for-sap-s-4hana-pro-tips-for-demonstrating-sap-fiori-navigate/ba-p/14161121)
 - [New Projects | Early Insights | Real Influence - SAP Customer Engagement Initiative Cycle 2-2025](https://community.sap.com/t5/technology-blog-posts-by-sap/new-projects-early-insights-real-influence-sap-customer-engagement/ba-p/14136944)
 - [🧰👷‍♂️ The SAP S/4HANA RISE &amp; SAP BTP - Toolbox  👷‍♂️🧰](https://community.sap.com/t5/technology-blog-posts-by-members/%EF%B8%8F-the-sap-s-4hana-rise-amp-sap-btp-toolbox-%EF%B8%8F/ba-p/13944069)
 - [SAP User Experience Q1/2025 Update – Part 4: SAP Ariba, SAP Fieldglass](https://community.sap.com/t5/technology-blog-posts-by-sap/sap-user-experience-q1-2025-update-part-4-sap-ariba-sap-fieldglass/ba-p/14022466)
-- [Master Data Retrieval API for Procurement](https://community.sap.com/t5/spend-management-q-a/master-data-retrieval-api-for-procurement/qaq-p/14023203)
 <!-- SAP-COMMUNITY-ARIBA-EXTENSIBILITY:END -->
 
 
