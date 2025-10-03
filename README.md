@@ -51,11 +51,11 @@ For further resources, go to:
 
 ### Latest SAP Ariba Extensibility blog posts in SAP Community
 <!-- SAP-COMMUNITY-ARIBA-EXTENSIBILITY:START -->
+- [SAP Вебкасти Жовтня 2025: Частина 2](https://community.sap.com/t5/kyiv-blog-posts/sap-%D0%B2%D0%B5%D0%B1%D0%BA%D0%B0%D1%81%D1%82%D0%B8-%D0%B6%D0%BE%D0%B2%D1%82%D0%BD%D1%8F-2025-%D1%87%D0%B0%D1%81%D1%82%D0%B8%D0%BD%D0%B0-2/ba-p/14234370)
 - [What’s New in SAP Ariba Central Procurement – SAP S/4HANA Cloud Public Edition 2508](https://community.sap.com/t5/spend-management-blog-posts-by-sap/what-s-new-in-sap-ariba-central-procurement-sap-s-4hana-cloud-public/ba-p/14226583)
 - [What’s New in Purchase Requisitions - SAP S/4HANA Cloud Public Edition 2508](https://community.sap.com/t5/spend-management-blog-posts-by-sap/what-s-new-in-purchase-requisitions-sap-s-4hana-cloud-public-edition-2508/ba-p/14226600)
 - [SAP BTP for HR at SAP Connect and Success Connect 2025 summary - bigger and better than ever](https://community.sap.com/t5/human-capital-management-blog-posts-by-sap/sap-btp-for-hr-at-sap-connect-and-success-connect-2025-summary-bigger-and/ba-p/14209124)
 - [🧰👷‍♂️ The SAP S/4HANA RISE &amp; SAP BTP - Toolbox  👷‍♂️🧰](https://community.sap.com/t5/technology-blog-posts-by-members/%EF%B8%8F-the-sap-s-4hana-rise-amp-sap-btp-toolbox-%EF%B8%8F/ba-p/13944069)
-- [SAP Fiori for SAP S/4HANA – Pro-tips for demonstrating SAP Fiori – Navigate with confidence](https://community.sap.com/t5/enterprise-resource-planning-blog-posts-by-sap/sap-fiori-for-sap-s-4hana-pro-tips-for-demonstrating-sap-fiori-navigate/ba-p/14161121)
 <!-- SAP-COMMUNITY-ARIBA-EXTENSIBILITY:END -->
 
 
