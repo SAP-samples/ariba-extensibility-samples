@@ -51,11 +51,11 @@ For further resources, go to:
 
 ### Latest SAP Ariba Extensibility blog posts in SAP Community
 <!-- SAP-COMMUNITY-ARIBA-EXTENSIBILITY:START -->
+- [Managing Joule on SAP BTP: Roles, Analytics, Administration and Troubleshooting](https://community.sap.com/t5/technology-blog-posts-by-sap/managing-joule-on-sap-btp-roles-analytics-administration-and/ba-p/14325933)
 - [SAP Ariba is now integrated with Microsoft Sentinel Solution for SAP](https://community.sap.com/t5/enterprise-resource-planning-blog-posts-by-members/sap-ariba-is-now-integrated-with-microsoft-sentinel-solution-for-sap/ba-p/14324356)
 - [Release Navigator for SAP Cloud ERP 2602](https://community.sap.com/t5/enterprise-resource-planning-blog-posts-by-sap/release-navigator-for-sap-cloud-erp-2602/ba-p/14269997)
 - [SAP Fiori for SAP S/4HANA – Replacing SAP Fiori apps during system conversion](https://community.sap.com/t5/enterprise-resource-planning-blog-posts-by-sap/sap-fiori-for-sap-s-4hana-replacing-sap-fiori-apps-during-system-conversion/ba-p/14260897)
 - [🧰👷‍♂️ The SAP S/4HANA RISE &amp; SAP BTP - Toolbox  👷‍♂️🧰](https://community.sap.com/t5/technology-blog-posts-by-members/%EF%B8%8F-the-sap-s-4hana-rise-amp-sap-btp-toolbox-%EF%B8%8F/ba-p/13944069)
-- [SAP Вебкасти Жовтня 2025: Частина 2](https://community.sap.com/t5/kyiv-blog-posts/sap-%D0%B2%D0%B5%D0%B1%D0%BA%D0%B0%D1%81%D1%82%D0%B8-%D0%B6%D0%BE%D0%B2%D1%82%D0%BD%D1%8F-2025-%D1%87%D0%B0%D1%81%D1%82%D0%B8%D0%BD%D0%B0-2/ba-p/14234370)
 <!-- SAP-COMMUNITY-ARIBA-EXTENSIBILITY:END -->
 
 
