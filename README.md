@@ -51,11 +51,11 @@ For further resources, go to:
 
 ### Latest SAP Ariba Extensibility blog posts in SAP Community
 <!-- SAP-COMMUNITY-ARIBA-EXTENSIBILITY:START -->
+- [SAP Enterprise Support Academy Newsletter April 2026](https://community.sap.com/t5/enterprise-resource-planning-blog-posts-by-sap/sap-enterprise-support-academy-newsletter-april-2026/ba-p/14374593)
 - [Clean Core – Part 1 – Activation of RISE with SAP Methodology Dashboard on Cloud ALM](https://community.sap.com/t5/enterprise-resource-planning-blog-posts-by-sap/clean-core-part-1-activation-of-rise-with-sap-methodology-dashboard-on/ba-p/14328522)
 - [🧰👷‍♂️ The SAP S/4HANA RISE &amp; SAP BTP - Toolbox  👷‍♂️🧰](https://community.sap.com/t5/technology-blog-posts-by-members/%EF%B8%8F-the-sap-s-4hana-rise-amp-sap-btp-toolbox-%EF%B8%8F/ba-p/13944069)
 - [What’s New in Purchase Requisitions - SAP S/4HANA Cloud Public Edition 2602](https://community.sap.com/t5/spend-management-blog-posts-by-sap/what-s-new-in-purchase-requisitions-sap-s-4hana-cloud-public-edition-2602/ba-p/14338006)
 - [What’s New in Central Procurement - SAP S/4HANA Cloud Public Edition 2602](https://community.sap.com/t5/spend-management-blog-posts-by-sap/what-s-new-in-central-procurement-sap-s-4hana-cloud-public-edition-2602/ba-p/14338002)
-- [Managing Joule on SAP BTP: Roles, Analytics, Administration and Troubleshooting](https://community.sap.com/t5/technology-blog-posts-by-sap/managing-joule-on-sap-btp-roles-analytics-administration-and/ba-p/14325933)
 <!-- SAP-COMMUNITY-ARIBA-EXTENSIBILITY:END -->
 
 
